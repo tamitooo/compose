@@ -1,4 +1,8 @@
  services:
+    webplantilla:
+     build: ./webplantilla
+     ports:
+       - 9000:80
    api-students:
      build: ./api-students
      ports:
