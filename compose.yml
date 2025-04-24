@@ -1,10 +1,12 @@
  services:
     api-students:
      build: ./api-students
+     image: tamitooo/api-students
      ports:
        - 8000:8000
     websimple:
      build: ./websimple
+     image: tamitooo/websimple
      ports:
        - 8080:80
 
